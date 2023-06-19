@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>SWU 골목식당 메뉴</title>
+</head>
+<body>
+<!-- 홈 -->
+    <section class="container">
+
+        <div class="text-center py-5">
+            <h1 class="fw-bold mb-3 fs-100">SWU 골목식당</h2>
+            <p class="lead text-muted">서울여대 공릉동 맛집, 여기서 찾아보세요!</p>
+          </div>
+
+    </section>
+<!-- 네비게이션 -->
+    <section class="container">
+
+        <div class="border border-dark rounded-4 border-3 p-1">
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+
+              <li class="nav-item" role="presentation">
+                <button class="fs-5 text-info-emphasis nav-link active rounded-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">한식</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="fs-5 text-info-emphasis nav-link rounded-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">일식</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="fs-5 text-info-emphasis nav-link rounded-4" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">양식</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="fs-5 text-info-emphasis nav-link rounded-4" id="cafe-tab" data-bs-toggle="tab" data-bs-target="#cafe-tab-pane" type="button" role="tab" aria-controls="cafe-tab-pane" aria-selected="false">카페</button>
+              </li>
+      
+            </ul>
+      </div>
+
+    </section>
+    <!-- 식당영역 -->
+    <section class="container overflow-hidden text-center  py-5">
+
+        <div class="tab-content" id="myTabContent">
+            <!-- 한식 -->
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+              <div class="row py-5 gy-3">
+                
+                <div class="col-md-4">
+                  <div class="shadow p-4 border-bottom border-4 border-warning">
+                      <img src="images/닭한마리_page.jpg" class="card-img-top" alt="닭한마리">
+                      <h5 class="card-title fs-4 fw-bold my-4">닭한마리</h5>
+                      <hr>
+                      <p class="card-text">#닭 #담백한 육수 #다양한 사리추가</p>
+                      <a href="한식-닭한마리.html"class="btn btn-warning btn-sm">방문하기</a>
+                  </div>
+                </div>
+                    
+            
+                <div class="col-md-4">
+                    <div class="shadow p-4 border-bottom border-4 border-success">
+                       <img src="images/청년치킨_page.jpg" class="card-img-top" alt="청년치킨">
+                       <h5 class="card-title fs-4 fw-bold my-4">청년치킨</h5>
+                       <hr>
+                       <p class="card-text">#다양한 치킨 #반마리 #저렴한 치킨</p>
+                       <a href="한식-청년치킨.html"class="btn btn-warning btn-sm">방문하기</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-4">
+                     <div class="shadow p-4 border-bottom border-4 border-warning">
+                        <img src="images/암사골숯불_page.jpg" class="card-img-top" alt="암사골숯불">
+                        <h5 class="card-title fs-4 fw-bold my-4">암사골숯불닭갈비</h5>
+                        <hr>
+                        <p class="card-text">#닭고기 특수부위 #닭갈비 배달</p>
+                        <a href="한식-암사골 숯불 닭갈비.html"class="btn btn-warning btn-sm">방문하기</a>
+                      </div>
+                        </div>
+                      
+                    
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/소담한제주대패삼겹살_page.jpg" class="card-img-top" alt="소담한제주대패삼겹살">
+                                  <h5 class="card-title fs-4 fw-bold my-4">공릉 소담한</h5>
+                                  <hr>
+                                  <p class="card-text">#대패 삼겹 맛집 #가마솥 뚜껑</p>
+                                  <a href="한식-소담한 제주 대패삼겹.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-success">
+                                <img src="images/돌깨마을맷돌순두부_page.jpg" class="card-img-top" alt="돌깨마을맷돌순두부">
+                                  <h5 class="card-title fs-4 fw-bold my-4">돌깨마을맷돌순두부</h5>
+                                  <hr>
+                                  <p class="card-text">#10000원 이내 음식 #순두부</p>
+                                  <a href="한식-돌깨마을 맷돌 순두부.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/경회루_page.jpg" class="card-img-top" alt="경회루">
+                                  <h5 class="card-title fs-4 fw-bold my-4">경회루</h5>
+                                  <hr>
+                                  <p class="card-text">#한정식 #정식</p>
+                                  <a href="한식-경회루.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+
+                    </div>  
+            </div>
+        
+            <!-- 일식 -->
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                
+                  <!-- 사진 -->
+                  <div class="row py-5 gy-3">
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/고씨네_page.jpg" class="card-img-top" alt="고씨네">
+                                  <h5 class="card-title fs-4 fw-bold my-4">고씨네</h5>
+                                  <hr>
+                                  <p class="card-text">#토핑 무한리필 #맵기 다양한 단계</p>
+                                  <a href="일식- 고씨네.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-success">
+                                <img src="images/솔직하다_page.jpg" class="card-img-top" alt="솔직하다">
+                                  <h5 class="card-title fs-4 fw-bold my-4">솔직하다</h5>
+                                  <hr>
+                                  <p class="card-text">#기본적인 일식 #덮밥</p>
+                                  <a href="일식- 솔직하다.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/아소코.jpg" class="card-img-top" alt="아소코">
+                                  <h5 class="card-title fs-4 fw-bold my-4">아소코</h5>
+                                  <hr>
+                                  <p class="card-text">#연어 #롤카츠 #방송 출연</p>
+                                  <a href="일식- 아소코.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                      
+                    
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/육회란연어다_page.jpg" class="card-img-top" alt="육회란연어다">
+                                  <h5 class="card-title fs-4 fw-bold my-4">육회란연어다</h5>
+                                  <hr>
+                                  <p class="card-text">#배달 #연어와 육회 동시에</p>
+                                  <a href="일식- 육회란 연어다.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-success">
+                                <img src="images/일상다반_page.jpg" class="card-img-top" alt="일상다반">
+                                  <h5 class="card-title fs-4 fw-bold my-4">일상다반</h5>
+                                  <hr>
+                                  <p class="card-text">#일본 가정식 #저렴한 가격</p>
+                                  <a href="일식- 일상다반.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/이츠초밥_page.jpg" class="card-img-top" alt="일식1">
+                                  <h5 class="card-title fs-4 fw-bold my-4">이츠초밥</h5>
+                                  <hr>
+                                  <p class="card-text">#가성비 #초밥 #사시미 #점심특선</p>
+                                  <a href="일식- 이츠초밥.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+
+                    </div>  
+            </div> 
+
+            <!-- 양식 -->
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                  
+                    <!-- 사진 -->
+                    <div class="row py-5 gy-3">
+                      <div class="col-md-4">
+                          <div class="shadow p-4 border-bottom border-4 border-warning">
+                              <img src="images/에그머니_page.jfif" class="card-img-top" alt="에그머니">
+                                <h5 class="card-title fs-4 fw-bold my-4">에그머니</h5>
+                                <hr>
+                                <p class="card-text">#오믈렛 맛집 #아늑한 분위기 #함박스테이크</p>
+                                <a href="양식-에그머니.html"class="btn btn-warning btn-sm">방문하기</a>
+                          </div>
+                      </div>
+                  
+          
+                      <div class="col-md-4">
+                          <div class="shadow p-4 border-bottom border-4 border-success">
+                              <img src="images/페페그라노_page.jfif" class="card-img-top" alt="페페그라노">
+                                <h5 class="card-title fs-4 fw-bold my-4">페페그라노</h5>
+                                <hr>
+                                <p class="card-text">#파스타 #뇨끼 맛집 #데이트코스</p>
+                                <a href="양식-페페그라노.html"class="btn btn-warning btn-sm">방문하기</a>
+                          </div>
+                      </div>
+          
+                      <div class="col-md-4">
+                          <div class="shadow p-4 border-bottom border-4 border-warning">
+                              <img src="images/아빠의 파스타_page.jpg" class="card-img-top" alt="아빠의 파스타">
+                                <h5 class="card-title fs-4 fw-bold my-4">아빠의 파스타</h5>
+                                <hr>
+                                <p class="card-text">#신라호텔 쉐프 #가성비 #파스타 맛집 #아늑한 분위기</p>
+                                <a href="양식-아빠의 파스타.html"class="btn btn-warning btn-sm">방문하기</a>
+                          </div>
+                      </div>
+                    
+                  
+                      <div class="col-md-4">
+                          <div class="shadow p-4 border-bottom border-4 border-warning">
+                              <img src="images/샐러드앤공리단길_page.jpg" class="card-img-top" alt="샐러드앤공리단길">
+                                <h5 class="card-title fs-4 fw-bold my-4">샐러드앤공리단길</h5>
+                                <hr>
+                                <p class="card-text">#샐러드로 한끼 식사 #빈티지 감성 카페 #단호박 스프</p>
+                                <a href="양식-샐러드앤공리단길.html"class="btn btn-warning btn-sm">방문하기</a>
+                          </div>
+                      </div>
+                  
+          
+                      <div class="col-md-4">
+                          <div class="shadow p-4 border-bottom border-4 border-success">
+                              <img src="images/루이스버거_page.jpg" class="card-img-top" alt="루이스버거">
+                                <h5 class="card-title fs-4 fw-bold my-4">루이스버거</h5>
+                                <hr>
+                                <p class="card-text">#조선호텔 쉐프 #수제버거 #두툼한 패티</p>
+                                <a href="양식-루이스버거.html"class="btn btn-warning btn-sm">방문하기</a>
+                          </div>
+                      </div>
+          
+                      <div class="col-md-4">
+                          <div class="shadow p-4 border-bottom border-4 border-warning">
+                              <img src="images/테르미니_page.jpg" class="card-img-top" alt="테르미니">
+                                <h5 class="card-title fs-4 fw-bold my-4">테르미니</h5>
+                                <hr>
+                                <p class="card-text">#이태리 레스토랑 #화덕피자 맛집 #서울여대 정문</p>
+                                <a href="양식-테르미니.html"class="btn btn-warning btn-sm">방문하기</a>
+                          </div>
+                      </div>
+
+                  </div> 
+        
+                  
+            </div>
+
+            <!-- 카페 -->
+            <div class="tab-pane fade" id="cafe-tab-pane" role="tabpanel" aria-labelledby="cafe-tab" tabindex="0">
+                    
+                      <!-- 사진 -->
+                      <div class="row py-5 gy-3">
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/커피콩_page.jpg" class="card-img-top" alt="커피콩">
+                                  <h5 class="card-title fs-4 fw-bold my-4">커피콩</h5>
+                                  <hr>
+                                  <p class="card-text">#망고빙수 맛집 #가성비 #두 명이서 먹어도 많음</p>
+                                  <a href="카페-커피콩.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-success">
+                                <img src="images/미라쥬_page.jpg" class="card-img-top" alt="미라쥬양과점">
+                                  <h5 class="card-title fs-4 fw-bold my-4">미라쥬양과점</h5>
+                                  <hr>
+                                  <p class="card-text">#마카롱 맛집 #마들렌 맛집 #선물하세요 </p>
+                                  <a href="카페-미라쥬양과점.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/그릭앤놀라_page.jpg" class="card-img-top" alt="그릭앤놀라">
+                                  <h5 class="card-title fs-4 fw-bold my-4">그릭앤놀라</h5>
+                                  <hr>
+                                  <p class="card-text">#그릭요거트 맛집 #건강한 한끼 #밀크티 맛집</p>
+                                  <a href="카페-그릭앤놀라.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                      
+                    
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/시프스_page.jpg" class="card-img-top" alt="시프스">
+                                  <h5 class="card-title fs-4 fw-bold my-4">시프스</h5>
+                                  <hr>
+                                  <p class="card-text">#라떼 맛집 #밤밤 커피 #힙한 분위기</p>
+                                  <a href="카페-시프스.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-success">
+                                <img src="images/딜리스_page.jpg" class="card-img-top" alt="딜리스">
+                                  <h5 class="card-title fs-4 fw-bold my-4">딜리스</h5>
+                                  <hr>
+                                  <p class="card-text">#조용하고 아늑한 분위기 #디저트 맛집 #감성 카페</p>
+                                  <a href="카페-딜리스.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4">
+                            <div class="shadow p-4 border-bottom border-4 border-warning">
+                                <img src="images/라라브레드_page.jpg" class="card-img-top" alt="라라브레드">
+                                  <h5 class="card-title fs-4 fw-bold my-4">라라브레드</h5>
+                                  <hr>
+                                  <p class="card-text">#빵과 브런치 #모임 장소 #파스타 맛집</p>
+                                  <a href="카페-라라브레드.html"class="btn btn-warning btn-sm">방문하기</a>
+                            </div>
+                        </div>
+  
+                    </div>
+                  
+            </div>
+        </div>
+    </section>
+    <!-- 식당영역 끝 -->
+            
+    <hr class="container">
+
+    <section class="container p-4">
+        
+          <div class="row g-5">
+            <!-- 소요시간 표 시작 -->
+                <div class="col-md-6">
+                  <h4 class="text-center pb-3">학교에서부터 도보로 소요 시간</h4>
+                  <table class="m-auto">
+                      <thead>
+                          <tr>
+                              <th></th>
+                              <th>10분 이내</th>
+                              <th>30분 이내</th>
+                              <th>30분 이상</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th class="p-3">한식</th>
+                              <td class="bg-warning-subtle">돌깨마을맷돌순두부</td>
+                              <td class="bg-success-subtle">청년치킨</td>
+                              <td class="bg-warning-subtle">닭 한마리, 경회루</td>
+                          </tr>
+                          <tr>
+                              <th class="p-3">일식</th>
+                              <td class="bg-success-subtle">고씨네</td>
+                              <td class="bg-warning-subtle">솔직하다, 아스코</td>
+                              <td class="bg-success-subtle">이츠초밥</td>
+                          </tr>
+                          <tr>
+                              <th class="p-3">양식</th>
+                              <td class="bg-warning-subtle">테르미니</td>
+                              <td class="bg-success-subtle">페페그라노</td>
+                              <td class="bg-warning-subtle">루이스버거</td>
+                          </tr>
+                          <tr>
+                            <th class="p-3">카페</th>
+                            <td class="bg-success-subtle">그릭앤놀라</td>
+                            <td class="bg-warning-subtle">딜리스, 라라브레드</td>
+                            <td class="bg-success-subtle">커피콩</td>
+                        </tr>
+                      </tbody>        
+                  </table>
+                </div>
+            <!-- 소요시간 표 종료 -->
+            <!-- 메일란 -->
+            <div class="col-md-6 m-auto">
+                <div class="text-black text-center p-5">
+                    <i class="bi bi-envelope-heart fs-5 text-black p-3"></i>구독 시 새로운 식당이 등록될 때 메일을 보내드려요
+                    <hr>
+                    <form>
+                        <fieldset>
+                            <input type="email" id="umail" placeholder="이메일 입력란"><input type="submit" value="구독하기">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <!-- 메일란 종료 -->
+              
+          </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

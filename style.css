@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+        body {
+            font-family: 'Jua', sans-serif;
+        }
+        h1 {
+            color: rgb(231, 115, 20);
+        }
+        .nav-tabs > .nav-item > .active {
+          background: #FFC107  
+        }
+        /* 130, 123, 106 */
+        .tab-content .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          
+      }
+        .col-sm-6,
+        .col-lg-4 {
+          margin: 35px; 
+        }
+
+        .container {
+          /* display: flex; */
+          justify-content: center;
+        }
+
+        .border{
+          border-color: rgb(231, 115, 20);
+        }
+
+        .card-title {
+          font-size: 1rem;
+        }
+        
+        header a:hover img{
+          transform: scale(1.1)
+        }
+
+        table {
+          background-color: rgb(255, 255, 255);
+          border:2px solid black;
+        }
+        td, th {
+          border:1px solid black;
+          padding:10px;
+          text-align:center;
+        }
+        body {
+        background-color: rgb(239, 239, 232);
+        }
+
+        .card-hover:hover{
+          background-color:blanchedalmond
+      }
+
+      .shadow1{
+        text-shadow: 3px 3px rgba(207, 153, 7, 0.564)
+    }
+
+    .bgw{
+      background-color: white
+    }
